@@ -1,0 +1,46 @@
+{
+  "name": "node-server-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "concurrently \"parcel --target node src/index.ts\" \"nodemon dist/index.js\" "
+  },
+  "dependencies": {
+    "@phil-r/stats": "1.4.1",
+    "@risingstack/protect": "1.2.0",
+    "@types/body-parser": "1.17.1",
+    "@types/compression": "1.0.1",
+    "@types/cors": "2.8.6",
+    "@types/errorhandler": "0.0.32",
+    "@types/express-status-monitor": "1.2.0",
+    "@types/helmet": "0.0.45",
+    "@types/method-override": "0.0.31",
+    "@types/mongoose": "5.5.40",
+    "@types/morgan": "1.7.37",
+    "@types/node": "12.7.12",
+    "@types/swagger-jsdoc": "3.0.2",
+    "@types/swagger-ui-express": "4.1.1",
+    "body-parser": "1.19.0",
+    "compression": "1.7.4",
+    "concurrently": "5.0.0",
+    "cors": "2.8.5",
+    "dotenv": "8.2.0",
+    "errorhandler": "1.5.1",
+    "express": "4.17.1",
+    "express-status-monitor": "1.2.8",
+    "helmet": "3.21.2",
+    "method-override": "3.0.0",
+    "mongoose": "5.8.6",
+    "morgan": "1.9.1",
+    "swagger-jsdoc": "3.5.0",
+    "swagger-ui-express": "4.1.2",
+    "typescript": "3.6.4",
+    "winston": "3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4",
+    "parcel": "^1.12.4"
+  },
+  "keywords": []
+}
